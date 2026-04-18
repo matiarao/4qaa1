@@ -1,0 +1,128 @@
+<!DOCTYPE <html>
+<html>
+<head>
+    <title>About Us</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class = "fixed">
+        <nav class="navbar">
+      <div class="navdiv">
+        <div class="logo"><img src="transparentlogo.png" width="200"></div>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="problem.html" class="active">Problem</a></li>
+          <li><a href="solution.html"class="active">Solution</a></li>
+          <li><a href="aboutus.html"class="active">About Us</a></li>
+          <li><a href="register.html"class="active">Register Now!</a></li>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1 style = "text-align: center;">Register Now!</h1>
+    <br>
+    <br>
+
+   
+    <form id = "form", onsubmit="validateForm(event)">
+        <label for = "Fullname">Fullname: </label>
+        <input type="text" id = "fullname" name = "Fullname">
+        <span class="error" id="nameError"></span>
+        <br>
+        <br>
+        <label for = "birthday">Birthdate: </label>
+        <input type="date" id = "birthday" name = "birthday">
+        <span class="error" id="bdayError"></span>
+        <br>
+        <br>
+        <label for = "sex">Sex: </label>
+        <input type="radio" name="sex" value="male"> Male
+        <input type="radio" name="sex" value="female"> Female
+        <input type="radio" name="sex" value="other"> Other
+        <span class="error" id="sexError"></span>
+        <br>
+        <br>
+        <label for = "email">Email: </label>
+        <input type= "email" id = "email" name = "email">
+        <span class="error" id="emailError"></span>
+        <br>
+        <br>
+        <label for = "username">Username: </label>
+        <input type="text" id = "username" name = "username">
+        <span class="error" id="userError"></span>
+        <br>
+        <br>
+
+        <label for = "password">Password: </label>
+        <input type="password" id="password" name = "password">
+        <span class="error" id="pwError"></span>
+        <br>
+        <br>
+        <label for = "confirmpassword">Confirm Password: </label>
+        <input type="password" id="confirmpassword" name = "confirmpassword">
+        <span class="error" id="confirmpwError"></span>
+        <br>
+        <br>
+        <label for="question1">Do you love food?</label>
+        <input type="radio" name="question1" value="yes"> Yes
+        <input type="radio" name="question1" value="no"> No
+        <span class="error" id="question1Error"></span>
+        <br>
+        <br>
+        <label for="question">Do you love giving food to others?</label>
+        <input type="radio" name="question2" value="yes"> Yes
+        <input type="radio" name="question2" value="no"> No
+        <span class="error" id="question2Error"></span>
+        <br>
+        <br>
+        <label for="question3">Do you like to volunteer?</label>
+        <input type="radio" name="question3" value="yes"> Yes
+        <input type="radio" name="question3" value="no"> No
+        <span class="error" id="question3Error"></span>
+        <br>
+        <br>
+        <label for="question4">Would you like to help others?</label>
+        <input type="radio" name="question4" value="yes"> Yes
+        <input type="radio" name="question4" value="no"> No
+        <span class="error" id="question4Error"></span>
+        <br>
+        <br>
+        <button type="submit">Register</button>
+    </form>
+    <span id="formsuccess"></span>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    <script src ="script.js"></script>
+</body>
+   <div class="box">
+    </div>
+    <img class = "contactinfologo" src="transparentlogo.png" width="100">
+    <br>
+
+    <div class = "contactinfo">
+    <h1>Philippine Science High School Southern Mindanao Campus, Barangay Sto. Niño, Tugbok District, Davao City, Philippines</h1>
+    <h1>  +63 954 449 6441</h1>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,160 @@
+ .intro {
+            width: 25%;
+            margin: 0 auto;
+        }
+        .navbar{
+        background-color:dodgerblue;
+        font-family:'Trebuchet MS'; 
+        padding-left: 10px;
+        padding-right: 10px; 
+        overflow:hidden;
+       }
+       .navdiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       }
+       .navbar ul{
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        overflow:hidden; 
+       }
+        li {
+        list-style:none;
+        display:inline-block;
+        margin-right: 20px;
+       }
+
+       li a{
+        list-style:none;
+        display:inline-block;
+        margin-right: 20px;
+        color:white;
+        font-size:18px;
+        font-weight:bold;
+        margin-right:25px;
+       }
+
+
+        li a:hover, li a:active {
+        list-style:none;
+        display:inline-block;
+        margin-right: 20px;
+        background-color: white;
+        color:dodgerblue;
+        padding: 5px 10px;
+        border-radius: 5px;
+       }
+       
+       
+        li a:visited {
+            background-color: white;
+            padding: 5px 10px;
+            text-decoration:underline;
+            border-radius: 5px;
+        }
+       button {
+        background-color:black;
+        margin-left: 10px;
+        border-radius: 10px;
+        padding: 10px;  width: 90px;
+       }
+       button a{
+        color: white;
+         font-weight: bold;
+          font-size: 15px;
+       }
+       .advocacy {
+        color:dodgerblue;
+         font-weight: bold;
+          font-size: 20px;   
+          display:block;
+       }
+       .social {
+        color:dodgerblue;
+         font-weight: bold;
+          font-size: 20px;   
+          display:block;
+       }
+       .fixed {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+       }
+
+       body {
+        background-color: rgb(170, 242, 247);
+        color:  rgb(0, 0, 0);
+        font-family:'Trebuchet MS';
+       }
+        .floatimg {
+          float: right;
+          margin: 0 0 10px 10px;
+          border: 1px solid black;
+        }
+        .floattxt {
+          float: left;
+          margin: 0 10px 10px 0;
+        }
+        #clear {
+        clear: left;
+        width: 25%;
+        
+       }
+       .box {
+        width: 1850px;
+        height: 50px;
+        border: 1px solid black;
+        background-color: rgb(9, 155, 240);
+       }
+        .contactinfologo  {
+          display: block;
+          margin: 0 auto;
+          float: left;
+        }
+        .contactinfo {
+        float:left;
+          width:10%;
+          margin: 0 auto;
+          font-size:10px;
+        }
+
+        .floattxt {
+          float: left;
+          margin: 0 10px 10px 0;
+          font-size: 45px;
+        }
+        
+        
+
+#problem1:hover{
+    transform: scale(1.0006);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-image: url(prob1.jpg);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#problem2:hover{
+    transform: scale(1.0006);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-image: url(prob2.png);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#problem3:hover{
+    transform: scale(1.0006);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-image: url(prob3.jpg);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
