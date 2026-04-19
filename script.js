@@ -14,7 +14,7 @@ function validateForm(event) {
   if (document.getElementById("fullname").value.trim() === "") {
     document.getElementById("nameError").style.display = "inline-block";
     document.getElementById("nameError").innerHTML = "Full name is required";
-    } else if (name.length < 2) {
+    } else if (fullname.length < 2) {
         document.getElementById("nameError").style.display = "inline-block";
         document.getElementById("nameError").innerHTML = "Name must be at least 2 characters long.";
         isValid = false;
