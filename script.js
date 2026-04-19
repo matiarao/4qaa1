@@ -84,12 +84,12 @@ function validateForm(event) {
     document.getElementById("pwError").innerHTML = "Password is required";
     isValid = false;
     } else if (password.length < 10) {
-        document.getElementById("passError").style.display = "inline-block";
-        document.getElementById("passError").innerHTML = "Password must be at least 10 characters long.";
+        document.getElementById("pwError").style.display = "inline-block";
+        document.getElementById("pwError").innerHTML = "Password must be at least 10 characters long.";
         isValid = false;
     } else if (/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)/.test(password) === false) {
-        document.getElementById("passError").style.display = "inline-block";
-        document.getElementById("passError").innerHTML = "Password must include at least one uppercase letter, one lowercase letter, and one number.";
+        document.getElementById("pwError").style.display = "inline-block";
+        document.getElementById("pwError").innerHTML = "Password must include at least one uppercase letter, one lowercase letter, and one number.";
         isValid = false;
     }
 
